@@ -2,8 +2,8 @@ color orange = #FFA500;
 color red = #FF0000;
 color regularButton = orange;
 color hoverOverButton = red;
-String title = "''square''";
-PFont titleFont;
+String title = "QUIT"
+
 void quitButtonDraw() {
   println ("Mousex:", mouseX, "\tMouseY:", mouseY);
   if (mouseX>width*15/16 && mouseX<width && mouseY>0 && mouseY<height*1/16) { //Hover Over
